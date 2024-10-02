@@ -148,13 +148,12 @@ def main():
                 contas.append(conta)
 
         elif opcao == "lc":
-            listar_contas(contas)
+            listar_contas(aa)
 
         elif opcao == "q":
             break
 
         else:
             print("Operação inválida, por favor selecione novamente a operação desejada.")
-
 
 main()
